@@ -1,0 +1,33 @@
+所用硬件模块及其对应引脚：
+温度传感器 DS18B20 
+DQ->PG11  紫色
+										
+VCC->5V  褐色
+										
+GND->GND 棕色
+心率传感器  pulse sensor  
+S->PA0  灰色
+													
+VCC->3.3V  黑色
+													
+GND->GND  褐色
+加速度传感器 mpu6050  
+SCL->PB10  蓝色
+											
+SDA->PB11  白色
+											
+VCC->5V  橘色
+											
+GND->GND 蓝色
+短信收发模块  sim900a 
+5VR->PA2  灰色
+											
+5VT->PA3	黄色
+											
+GND->GND	蓝色
+											
+VCC_mcu->5V(可不接)
+	另外还需要5V 2A电源供电
+32单片机 stm32f103zet6
+					
+5V 1A 供电
